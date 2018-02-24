@@ -14,10 +14,7 @@ var config = {
   messagingSenderId: "553144417983"
 };
 firebase.initializeApp(config);
-
-const initialMapViewData = [
-  
-];
+// battles=[]
 
 //Here we have our main app component 
 class App extends React.Component {
@@ -32,6 +29,25 @@ class App extends React.Component {
     this.goToNextBattle = this.goToNextBattle.bind(this);
     this.goToPrevBattle = this.goToPrevBattle.bind(this);
   
+  }
+
+  componentDidMount() {
+    const dbref = firebase.database().ref('/allBattles');
+
+    dbref.on('value', (snapshot) => {
+      const data = snapshot.val();
+      const state = [];
+      for(let key in data){
+        // console.log(key);
+        // console.log(data[key]);
+        let subData = data[key];
+        for(let subKey in subData){
+          console.log(subKey);
+          console.log(subData[subKey])
+        }
+      }
+
+    });
   }
 
   //After this for components

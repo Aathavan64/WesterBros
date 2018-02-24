@@ -1,6 +1,7 @@
+
 {
-    "Prelude": {
-        "Abuduction of Lyanna Stark": {
+    "allBattles": {
+        "abuductionOfLyannaStark": {
             "Parties": {
                 "rebelHouses": {
                     "House": "Stark"
@@ -13,7 +14,7 @@
 
             "afterMath": "After Lyanna's abduction, her older brother Brandon, who had been on his way to Riverrun to wed Catelyn Tully, rode instead to King's Landing demanding that King Aerys II Targaryen, Rhaegar's father, have Lyanna returned and Rhaegar punished. He was taken prisoner and charged with treason, at which point his father, Rickard Stark, was summoned to ransom him. Aerys's councilors urged him to pardon Brandon Stark, as Rhaegar had stolen his sister and was the heir of the Warden of the North. However, the Mad King, in his delusion and insanity, had them both put to death."
         },
-        "Execution of Rickard and Brandon Stark": {
+        "executionOfRickardAndBrandonStark": {
             "Parties": {
                 "rebelHouses": {
                     "House": "Stark"
@@ -25,10 +26,8 @@
             "Events": "Lord Rickard demanded a trial by combat, and Aerys declared `fire` the champion of the House Targaryen. He had Lord Rickard suspended from the rafters of the throne room while pyromancers lit a blaze beneath him. As he burned, Brandon was brought into the throne room, a leather cord attached to a strangulation device was wrapped around his neck. Aerys told Brandon his father was a dead man but there was a chance to save him. A longsword was placed on the floor just out of Brandon's reach, and the more he struggled to reach it, the more the cord tightened around his throat. Brandon Stark strangled himself trying to free his father, who was roasted alive in his own armor. The entire court stood and watched this atrocity take place, Ser Jaime Lannister and the Kingsguard among them.",
 
             "afterMath": "The horrific and unjust way in which Rickard and Brandon were killed, along with Lyanna's abduction, led to Houses Baratheon, Stark, and Arryn rebelling against the Iron Throne."
-        }
-    },
-    "Open Enagements": {
-        "Battle of Summer Hall": {
+        },
+        "battleOfSummerHall": {
             "Parties": {
                 "rebelHouses": {
                     "House": "Baratheon"
@@ -43,7 +42,7 @@
 
             "afterMath": "Robert consolidated his power in the stormlands, winning the support of the rest of the storm lords, which allowed him to march towards the Reach with no enemy forces loose in his rear.Lord Fell was killed and his son Silveraxe, Lord Grandison and Lord Cafferen were captured and taken to Storm's End as prisoners. The three captives would later join the rebel cause after some time spent in captivity. Lord Randyll Tarly killed Cafferen in the battle of Ashford, while Grandison died after the war from wounds taken in the battle of the Trident."
         },
-        "Battle of Ashford": {
+        "battleOfAshford": {
             "Parties": {
                 "rebelHouses": {
                     "House": "Baratheon"
@@ -56,10 +55,8 @@
             "Prelude": "Robert's brother Stannis, whom he left to hold Storm's End, warned him that marching west into enemy territory would overextend himself, and instead he should immediately march north to join his allies from the Vale and the North, but Robert wouldn't listen, hoping for a quick victory.",
             "Events": "Ashford was an indecisive battle, in which Robert Baratheon was defeated by the vanguard of House Tyrell, led by Randyll Tarly. However, Robert's army was able to retreat in good order, before the main force of the Tyrell army could arrive to crush him. Lord Mace Tyrell's main army only arrived after Robert had already retreated.",
             "afterMath": "The defeat forced Robert's army to flee north, to link up with the rebel armies from the North and the Vale. This left the Stormlands open to be invaded by the loyalist armies of the Reach and left Storm's End free for the Tyrells to besiege. The Tyrells could have chased after Robert, but Mace assumed that Tywin Lannister would stay loyal and flank Robert's army as it passed the Westerlands. Meanwhile, if the Tyrells could successfully take Robert's home castle of Storm's End, it would be a crushing blow to rebel morale, which would lead to Robert's supporters abandoning him."
-        }
-    },
-    "Major Enagements": {
-        "Battle of the Bells":{
+        },
+        "battleOfTheBells":{
             "Parties": {
                 "rebelHouses": {
                     "House1": "Baratheon",
@@ -74,7 +71,7 @@
             "Prelude": "Following Robert Baratheon's defeat against House Tarly, the vanguard of House Tyrell's forces, in the Battle of Ashford, he fled north to the town of Stoney Sept, in the Riverlands, chased by forces loyal to King Aerys II Targaryen.",
             "Events": "When the loyalist army arrived, the bells of the local sept tolled, signaling the townsfolk to take refuge, and giving the battle its name. The loyalists ineffectively searched for Lord Robert from house to house until they were surprised by the combined army of House Stark, House Tully and House Arryn. The rebels defeated the loyalist force, which fled back to King's Landing."
         },
-        "Battle of the Trident": {
+        "battleOfTheTrident": {
             "Parties": {
                 "rebelHouses": {
                     "House1": "Baratheon",
@@ -99,7 +96,7 @@
             "afterMath" : "The defeat marked the beginning of the end for the Targaryen dynasty. The main reason such a high number of Houses had remained loyal to the Mad King was because of loyalty they felt towards his son and heir, Rhaegar. With Rhaegar dead, House Targaryen's popular support fell drastically. No army stood between the rebels and King's Landing, the only other loyalist armies being Mace Tyrell's army besieging Storm's End, and Tywin Lannister's marching from Casterly Rock towards the capital."
 
         },
-        "Wildfire Plot": {
+        "wildfirePlot": {
             "Parties": {
                 "rebelHouses": {
                     "House1": "Kingsguard"
@@ -112,7 +109,7 @@
             "Prelude": "After the death of Prince Rhaegar Targaryen in the Battle of the Trident, Lord Tywin Lannister marched to the capital with an army, promising to protect the city from the rebels led by Lord Robert Baratheon. Both the Master of Whisperers Varys and Ser Jaime Lannister of the Kingsguard urged Aerys to bar the gates and refuse Tywin entrance, but Grand Maester Pycelle urged him to let Tywin enter the city. Aerys did, and Tywin's army sacked the city.",
             "Events": "Jaime once again urged Aerys to surrender, but the Mad King told him to bring him Tywin's head. He then ordered Rossart to burn the city to the ground. He believed that once the city was destroyed, he would rise from the ashes as a dragon. Before they could go through with this, Jaime killed Rossart and when Aerys tried to flee, Jaime stabbed him in the back and slit his throat to make sure he was dead. At this point, Lord Eddard Stark entered the throne room and discovered Jaime standing over the king he had just killed."
         },
-        "Sack of Kings Landing": {
+        "sackOfKingsLanding": {
             "Parties": {
                 "rebelHouses": {
                     "House1": "Lannister",
@@ -128,7 +125,7 @@
                 "2": "As Lannister soldiers brutally rampaged through the city, the Mad King, Aerys II Targaryen, was personally murdered by Ser Jaime Lannister, a member of his Kingsguard. Most of the King's loyal retainers and those family members who had not fled to Dragonstone also perished including, infamously, Rhaegar's wife Elia and their two children at the hands of Lannister bannerman Ser Gregor Clegane."
             }
         },
-        "Seige of Storms End": {
+        "seigeOfStormsEnd": {
             "Parties": {
                 "rebelHouses": {
                     "House1": "Baratheon",
@@ -141,10 +138,8 @@
             },
             "Prelude": "While the rebellion raged on, Lord Tyrell besieged the castle for an entire year both by land and by sea with House Redwyne's fleet, one of House Tyrell's bannermen. True to his orders, Stannis resisted and refused to yield despite being forced to eat the horses, cats, and dogs of the castle, and eventually even rats and glue. Stannis was able to keep his wife barely fed by killing seagulls with a bow whenever he had the chance.",
             "Events": "Stannis and the garrison would have starved if not for the intervention of a smuggler named Davos, who managed to slip through the loyalist navy blockading Storm's End and delivered a cargo of onions and salted fish. Thanks to Davos's intervention the garrison survived until Ned Stark later arrived to lift the siege."
-        }
-    },
-    "Final Engagements": {
-        "Showdown at the Tower of Joy": {
+        },
+        "showdownAtTheTowerOfJoy": {
             "Parties": {
                 "rebelHouses": {
                     "House1": "Stark",
@@ -159,7 +154,7 @@
             "afterMath": "Having dealt with the last Targaryen loyalists, Ned Stark returned home to Winterfell, along with the body of his sister, Lyanna Stark, who had recently perished, and his bastard son, Jon Snow, whom he had apparently fathered with a woman named Wylla. While his friendship with Robert was mended over their mutual love for Lyanna, who had been Robert's betrothed, both men would remain haunted by her death."
 
         },
-        "Assult on Dragonstone": {
+        "assultOnDragonstone": {
             "Parties": {
                 "rebelHouses": {
                     "House1": "Baratheon"
@@ -171,7 +166,7 @@
             "Prelude": "After Lord Mace Tyrell bent the knee and his siege of Storm's End was lifted, Robert sent his brother Stannis to Dragonstone, the island fortress located at the eponymous island, where Queen Rhaella and Prince Viserys had been sent following the rebel victory at the Battle of the Trident.",
             "Events": "Stannis led the Royal fleet aboard the Fury to capture Prince Viserys and Princess Daenerys, who had been recently born. However, before he arrived, Ser Willem Darry, one of the last Targaryen loyalists, smuggled the two children across the Narrow Sea. The remaining garrison simply surrendered when Stannis arrived.",
             "afterMath": "Enraged over the escape of Viserys and Daenerys and blaming Stannis for it, Robert stripped Storm's End from him and granted it to their younger brother Renly. Instead, Robert granted Dragonstone to Stannis. Stannis took it as a slight, despite the fact that Dragonstone had been the traditional seat of the heir to the Seven Kingdoms."
-        }
+        }  
     }
 }
 
