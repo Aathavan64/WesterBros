@@ -23,7 +23,8 @@ class App extends React.Component {
     super();
     //set initial states here
     this.state ={
-      activeIndex:0
+      activeIndex:0,
+      battles: []
     }
     //Here we bind our methods so that the `this` keyword is in proper context inside of our custom methods
     this.goToNextBattle = this.goToNextBattle.bind(this);
@@ -38,14 +39,20 @@ class App extends React.Component {
       const data = snapshot.val();
       const state = [];
       for(let key in data){
+        data[key].key = key;
+        state.push(data[key])
         // console.log(key);
         // console.log(data[key]);
-        let subData = data[key];
-        for(let subKey in subData){
-          console.log(subKey);
-          console.log(subData[subKey])
-        }
+        // let subData = data[key];
+        // for(let subKey in subData){
+        //   console.log(subKey);
+        //   console.log(subData[subKey])
+        // }
       }
+      console.log(state);
+      this.setState({
+        battles: state
+      })
 
     });
   }
@@ -95,6 +102,7 @@ class App extends React.Component {
   }
 
   render() {
+    console.log(this.state.battles[this.state.activeIndex]);
     return (
       <div>
         <div className="initialView">
