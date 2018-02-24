@@ -34,9 +34,9 @@
                     "House": "Baratheon"
                 },
                 "crownHouses": {
-                    "House": "Grandison",
-                    "House": "Fell",
-                    "House": "Cafferen"
+                    "House1": "Grandison",
+                    "House2": "Fell",
+                    "House3": "Cafferen"
                 }
             },
             "Events": "Not much is known about the battle, only that Robert managed to arrive first and won three battles in a single day, defeating the forces of the three loyalist houses in turn as they arrived. Additionally, Robert killed Lord Fell in single combat.",
@@ -49,8 +49,8 @@
                     "House": "Baratheon"
                 },
                 "crownHouses": {
-                    "House": "Tarly",
-                    "House": "Tyrell"
+                    "House1": "Tarly",
+                    "House2": "Tyrell"
                 }
             },
             "Prelude": "Robert's brother Stannis, whom he left to hold Storm's End, warned him that marching west into enemy territory would overextend himself, and instead he should immediately march north to join his allies from the Vale and the North, but Robert wouldn't listen, hoping for a quick victory.",
@@ -62,10 +62,10 @@
         "Battle of the Bells":{
             "Parties": {
                 "rebelHouses": {
-                    "House": "Baratheon",
-                    "House": "Stark",
-                    "House": "Arryn",
-                    "House": "Tully"
+                    "House1": "Baratheon",
+                    "House2": "Stark",
+                    "House3": "Arryn",
+                    "House4": "Tully"
                 },
                 "crownHouses": {
                     "House": "Iron Throne(House: Targaryen)"
@@ -77,18 +77,18 @@
         "Battle of the Trident": {
             "Parties": {
                 "rebelHouses": {
-                    "House": "Baratheon",
-                    "House": "Stark",
-                    "House": "Bolton",
-                    "House": "Forrester",
-                    "House": "Arryn",
-                    "House": "Tully",
-                    "House": "Frey"
+                    "House1": "Baratheon",
+                    "House2": "Stark",
+                    "House3": "Bolton",
+                    "House4": "Forrester",
+                    "House5": "Arryn",
+                    "House6": "Tully",
+                    "House7": "Frey"
                 },
                 "crownHouses": {
-                    "House": "Targaryen",
-                    "House": "Kingsguard",
-                    "House": "Martell"
+                    "House1": "Targaryen",
+                    "House2": "Kingsguard",
+                    "House3": "Martell"
                 }
             },
             "Prelude": "While the rebels massed north of the river, Crown Prince Rhaegar Targaryen - who had started the entire war when he abducted Lyanna Stark - finally reappeared in King's Landing and massed the bulk of the remaining loyalist forces. He then led them north to face off against Robert's armies when they attempted to cross south of the Trident and advance on King's Landing.",
@@ -102,11 +102,11 @@
         "Wildfire Plot": {
             "Parties": {
                 "rebelHouses": {
-                    "House": "Kingsguard"
+                    "House1": "Kingsguard"
                 },
                 "crownHouses": {
-                    "House": "Targaryen",
-                    "House": "Alchemist Guild"
+                    "House1": "Targaryen",
+                    "House2": "Alchemist Guild"
                 }
             },
             "Prelude": "After the death of Prince Rhaegar Targaryen in the Battle of the Trident, Lord Tywin Lannister marched to the capital with an army, promising to protect the city from the rebels led by Lord Robert Baratheon. Both the Master of Whisperers Varys and Ser Jaime Lannister of the Kingsguard urged Aerys to bar the gates and refuse Tywin entrance, but Grand Maester Pycelle urged him to let Tywin enter the city. Aerys did, and Tywin's army sacked the city.",
@@ -115,11 +115,11 @@
         "Sack of Kings Landing": {
             "Parties": {
                 "rebelHouses": {
-                    "House": "Lannister",
-                    "House": "Clegane"
+                    "House1": "Lannister",
+                    "House2": "Clegane"
                 },
                 "crownHouses": {
-                    "House": "Targaryen"
+                    "House1": "Targaryen"
                 }
             },
             "Prelude": "After the Battle of the Trident, during which the Targaryen army had been defeated and Crown Prince Rhaegar slain, Robert Baratheon's victory was virtually assured. Lord Tywin Lannister, who had remained neutral during the conflict, ignoring pleas for aid from both sides, called his banners and marched on the capital.",
@@ -131,12 +131,12 @@
         "Seige of Storms End": {
             "Parties": {
                 "rebelHouses": {
-                    "House": "Baratheon",
-                    "House": "Stark"
+                    "House1": "Baratheon",
+                    "House2": "Stark"
                 },
                 "crownHouses": {
-                    "House": "Tyrell",
-                    "House": "Redwyne"
+                    "House1": "Tyrell",
+                    "House2": "Redwyne"
                 }
             },
             "Prelude": "While the rebellion raged on, Lord Tyrell besieged the castle for an entire year both by land and by sea with House Redwyne's fleet, one of House Tyrell's bannermen. True to his orders, Stannis resisted and refused to yield despite being forced to eat the horses, cats, and dogs of the castle, and eventually even rats and glue. Stannis was able to keep his wife barely fed by killing seagulls with a bow whenever he had the chance.",
@@ -147,11 +147,11 @@
         "Showdown at the Tower of Joy": {
             "Parties": {
                 "rebelHouses": {
-                    "House": "Stark",
-                    "House": "Reed"
+                    "House1": "Stark",
+                    "House2": "Reed"
                 },
                 "crownHouses": {
-                    "House": "Kingsguard"
+                    "House1": "Kingsguard"
                 }
             },
             "Prelude": "After Lord Mace Tyrell bent the knee and his siege of Storm's End had ended, a small group loyal to the Mad King still remained: the Kingsguard who had not been either at the Battle of the Trident or at the fall of the capital.",
@@ -162,10 +162,10 @@
         "Assult on Dragonstone": {
             "Parties": {
                 "rebelHouses": {
-                    "House": "Baratheon"
+                    "House1": "Baratheon"
                 },
                 "crownHouses": {
-                    "House": "Targaryen"
+                    "House1": "Targaryen"
                 }
             },
             "Prelude": "After Lord Mace Tyrell bent the knee and his siege of Storm's End was lifted, Robert sent his brother Stannis to Dragonstone, the island fortress located at the eponymous island, where Queen Rhaella and Prince Viserys had been sent following the rebel victory at the Battle of the Trident.",

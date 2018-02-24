@@ -1,5 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Previousbattle from './previousBattle.js'
+import Nextbattle from './nextBattle.js'
+
 
 // Initialize Firebase
 var config = {
@@ -12,14 +15,102 @@ var config = {
 };
 firebase.initializeApp(config);
 
+const initialMapViewData = [
+  
+];
+
+//Here we have our main app component 
 class App extends React.Component {
-    render() {
-      return (
-        <div>
-          Hello
-        </div>
-      )
+  //constructor used to set inital state
+  constructor() {
+    super();
+    //set initial states here
+    this.state ={
+      activeIndex:0
     }
+    //Here we bind our methods so that the `this` keyword is in proper context inside of our custom methods
+    this.goToNextBattle = this.goToNextBattle.bind(this);
+    this.goToPrevBattle = this.goToPrevBattle.bind(this);
+  
+  }
+
+  //After this for components
+  goToPrevBattle(e){
+    e.preventDefault();
+
+    let index = this.state.activeIndex;
+    // let { battles } = this.props;
+    // let battlesLength = battles.length;
+
+    // if (index < 1) {
+    //   index = battlesLength;
+    // }
+
+    --index;
+
+    this.setState({
+      activeIndex: index
+    });
+
+    console.log('prev button clicked');
+  }
+
+  goToNextBattle(e){
+    e.preventDefault();
+    let index = this.state.activeIndex;
+    //propety that is passed to child that will switch the battle 
+
+
+    // let {battles} = this.props;
+
+    // let battlesLength = battles.length - 1;
+    // if (index === slidesLength){
+    //   index = -1;
+    // }
+
+    ++index;
+
+    this.setState({
+      activeIndex: index
+    });
+
+    console.log('next button clicked'); 
+ 
+  }
+
+  render() {
+    return (
+      <div>
+        <div className="initialView">
+          <div className="initalMapView">
+            <h1>h1test</h1>
+
+          </div>
+          <div className="battleTracker">
+            <Previousbattle onClick={e => this.goToPrevBattle(e)}/>
+            {/* <div className="battleTrackerBattles">
+              {this.props.battles.map((battle, index) =>
+                <CurrentBattle
+                  key={index}
+                  index={index}
+                  activeIndex= {this.state.activeIndex}
+                  battle={battle}
+                />
+              )} 
+            </div> */}
+            <Nextbattle onClick={e => this.goToNextBattle(e)} />
+          </div>
+        </div>
+      </div>
+    )
+  }
+
+  setColor(e){
+    this.setState({
+      colorNumber : e.target.id
+    })
+  }
 }
+
 
 ReactDOM.render(<App />, document.getElementById('app'));
