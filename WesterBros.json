@@ -3,7 +3,7 @@
     "allBattles": {
         "abductionOfLyannaStark": {
             "Title": "Abduction of Lyanna Stark",
-            "battleOrder":"a",
+            "battleOrder": 1,
             "Parties": {
                 "rebelHouses": {
                     "House": "Stark"
@@ -18,7 +18,7 @@
         },
         "executionOfRickardAndBrandonStark": {
             "Title": "Execution of Rickard and Brandon Stark",
-            "battleOrder": "b",
+            "battleOrder": 2,
             "Parties": {
                 "rebelHouses": {
                     "House": "Stark"
@@ -33,7 +33,7 @@
         },
         "battleOfSummerHall": {
             "Title": "Battle of Summer Hall",
-            "battleOrder": "c",
+            "battleOrder": 3,
             "Parties": {
                 "rebelHouses": {
                     "House": "Baratheon"
@@ -50,7 +50,7 @@
         },
         "battleOfAshford": {
             "Title": "Battle of Ashford",
-            "battleOrder": "d",
+            "battleOrder": 4,
             "Parties": {
                 "rebelHouses": {
                     "House": "Baratheon"
@@ -66,7 +66,7 @@
         },
         "battleOfTheBells":{
             "Title": "Battle of the Bells",
-            "battleOrder": "e",
+            "battleOrder": 5,
             "Parties": {
                 "rebelHouses": {
                     "House1": "Baratheon",
@@ -83,7 +83,7 @@
         },
         "battleOfTheTrident": {
             "Title": "Battle of the Trident",
-            "battleOrder": "f",
+            "battleOrder": 6,
             "Parties": {
                 "rebelHouses": {
                     "House1": "Baratheon",
@@ -110,7 +110,7 @@
         },
         "wildfirePlot": {
             "Title": "Wild Fire Plot",
-            "battleOrder": "g",
+            "battleOrder": 7,
             "Parties": {
                 "rebelHouses": {
                     "House1": "Kingsguard"
@@ -125,7 +125,7 @@
         },
         "sackOfKingsLanding": {
             "Title": "Sack of Kings Landing",
-            "battleOrder": "h",
+            "battleOrder": 8,
             "Parties": {
                 "rebelHouses": {
                     "House1": "Lannister",
@@ -143,7 +143,7 @@
         },
         "seigeOfStormsEnd": {
             "Title": "Seige of Storms End",
-            "battleOrder": "i",
+            "battleOrder": 9,
             "Parties": {
                 "rebelHouses": {
                     "House1": "Baratheon",
@@ -159,7 +159,7 @@
         },
         "showdownAtTheTowerOfJoy": {
             "Title": "Showdown at the Tower of Joy",
-            "battleOrder": "j",
+            "battleOrder": 10,
             "Parties": {
                 "rebelHouses": {
                     "House1": "Stark",
@@ -176,7 +176,7 @@
         },
         "assultOnDragonstone": {
             "Title": "Assult on Dragonstone",
-            "battleOrder": "k",
+            "battleOrder": 11,
             "Parties": {
                 "rebelHouses": {
                     "House1": "Baratheon"

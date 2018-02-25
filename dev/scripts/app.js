@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import Previousbattle from './previousBattle.js'
 import Nextbattle from './nextBattle.js'
 import Currentbattle from './currentBattle.js'
-
+import Currentindicator from './currentIndicator.js'
 
 // Initialize Firebase
 var config = {
@@ -67,12 +67,6 @@ class App extends React.Component {
       })
     });
 
-    // const dbrefEvents = firebase.database().ref('/allBattles/abductionOfLyannaStark');
-
-    // dbrefEvents.on('value'), (snapshot) => {
-    //   const dataEvents = snapshot.val();
-    //   console.log(dataEvents)
-    // }
   }
 
   //After this for components
@@ -113,13 +107,16 @@ class App extends React.Component {
 
           </div>
           <div className="battleTracker">
-            <Previousbattle onClick={e => this.goToPrevBattle(e)}/>
             {this.state.battles.length>0 &&
               <Currentbattle battle={this.state.battles[this.state.activeIndex]} />
             }
             {/* {this.state.battles.map((battle, i) =>{
               return <Currentbattle key={i} battle={battle} />
             })} */}
+            {this.state.battles.length>0 &&
+            <Currentindicator battle={this.state.battles[this.state.activeIndex]} />
+            }
+            <Previousbattle onClick={e => this.goToPrevBattle(e)}/>
             <Nextbattle onClick={e => this.goToNextBattle(e)} />
           </div>
         </div>
