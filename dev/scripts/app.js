@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Previousbattle from './previousBattle.js'
 import Nextbattle from './nextBattle.js'
+import Currentbattle from './currentBattle.js'
 
 
 // Initialize Firebase
@@ -25,7 +26,6 @@ class App extends React.Component {
     this.state ={
       activeIndex:0,
       battles: [],
-      battleName: []
     }
     //Here we bind our methods so that the `this` keyword is in proper context inside of our custom methods
     this.goToNextBattle = this.goToNextBattle.bind(this);
@@ -38,11 +38,13 @@ class App extends React.Component {
 
     dbref.on('value', (snapshot) => {
       const data = snapshot.val();
-      const state = [];
+      console.log (data)
+      const battlesState = [];
       for(let key in data){
         data[key].key = key;
-        console.log(key);
-        state.push(data[key])
+        // console.log(key);
+        // battleNameState.push(key)
+        battlesState.push(data[key])
         // console.log(key);
         // console.log(data[key]);
         // let subData = data[key];
@@ -58,26 +60,20 @@ class App extends React.Component {
           return 1;
         return 0;
       }
-
-      state.sort(compare);
-      console.log(state);
+      battlesState.sort(compare);
+      console.log(battlesState);
       this.setState({
-        battles: state
+        battles: battlesState
       })
-
     });
 
-    // let battleNameHolder = Object.assign({}, this.state.battle);
-    // battleNameHolder.items = stateCopy.items.slice();
+    // const dbrefEvents = firebase.database().ref('/allBattles/abductionOfLyannaStark');
 
-    // var stateCopy = Object.assign({}, this.state);
-    // stateCopy.items = stateCopy.items.slice();
-    // stateCopy.items[key] = Object.assign({}, stateCopy.items[key]);
-    // stateCopy.items[key].upVotes += 1;
-    // this.setState(stateCopy);
+    // dbrefEvents.on('value'), (snapshot) => {
+    //   const dataEvents = snapshot.val();
+    //   console.log(dataEvents)
+    // }
   }
-
-
 
   //After this for components
   goToPrevBattle(e){
@@ -109,26 +105,21 @@ class App extends React.Component {
   }
 
   render() {
-    console.log(this.state.battles[this.state.activeIndex]);
+    console.log(this.state.battles);
     return (
       <div>
         <div className="initialView">
           <div className="initalMapView">
-            <h1>h1test</h1>
 
           </div>
           <div className="battleTracker">
             <Previousbattle onClick={e => this.goToPrevBattle(e)}/>
-            {/* <div className="battleTrackerBattles">
-              {this.props.battles.map((battle, index) =>
-                <CurrentBattle
-                  key={index}
-                  index={index}
-                  activeIndex= {this.state.activeIndex}
-                  battle={battle}
-                />
-              )} 
-            </div> */}
+            {this.state.battles.length>0 &&
+              <Currentbattle battle={this.state.battles[this.state.activeIndex]} />
+            }
+            {/* {this.state.battles.map((battle, i) =>{
+              return <Currentbattle key={i} battle={battle} />
+            })} */}
             <Nextbattle onClick={e => this.goToNextBattle(e)} />
           </div>
         </div>
