@@ -2,6 +2,7 @@
 {
     "allBattles": {
         "abuductionOfLyannaStark": {
+            "battleOrder":"a",
             "Parties": {
                 "rebelHouses": {
                     "House": "Stark"
@@ -15,6 +16,7 @@
             "afterMath": "After Lyanna's abduction, her older brother Brandon, who had been on his way to Riverrun to wed Catelyn Tully, rode instead to King's Landing demanding that King Aerys II Targaryen, Rhaegar's father, have Lyanna returned and Rhaegar punished. He was taken prisoner and charged with treason, at which point his father, Rickard Stark, was summoned to ransom him. Aerys's councilors urged him to pardon Brandon Stark, as Rhaegar had stolen his sister and was the heir of the Warden of the North. However, the Mad King, in his delusion and insanity, had them both put to death."
         },
         "executionOfRickardAndBrandonStark": {
+            "battleOrder": "b",
             "Parties": {
                 "rebelHouses": {
                     "House": "Stark"
@@ -28,6 +30,7 @@
             "afterMath": "The horrific and unjust way in which Rickard and Brandon were killed, along with Lyanna's abduction, led to Houses Baratheon, Stark, and Arryn rebelling against the Iron Throne."
         },
         "battleOfSummerHall": {
+            "battleOrder": "c",
             "Parties": {
                 "rebelHouses": {
                     "House": "Baratheon"
@@ -43,6 +46,7 @@
             "afterMath": "Robert consolidated his power in the stormlands, winning the support of the rest of the storm lords, which allowed him to march towards the Reach with no enemy forces loose in his rear.Lord Fell was killed and his son Silveraxe, Lord Grandison and Lord Cafferen were captured and taken to Storm's End as prisoners. The three captives would later join the rebel cause after some time spent in captivity. Lord Randyll Tarly killed Cafferen in the battle of Ashford, while Grandison died after the war from wounds taken in the battle of the Trident."
         },
         "battleOfAshford": {
+            "battleOrder": "d",
             "Parties": {
                 "rebelHouses": {
                     "House": "Baratheon"
@@ -57,6 +61,7 @@
             "afterMath": "The defeat forced Robert's army to flee north, to link up with the rebel armies from the North and the Vale. This left the Stormlands open to be invaded by the loyalist armies of the Reach and left Storm's End free for the Tyrells to besiege. The Tyrells could have chased after Robert, but Mace assumed that Tywin Lannister would stay loyal and flank Robert's army as it passed the Westerlands. Meanwhile, if the Tyrells could successfully take Robert's home castle of Storm's End, it would be a crushing blow to rebel morale, which would lead to Robert's supporters abandoning him."
         },
         "battleOfTheBells":{
+            "battleOrder": "e",
             "Parties": {
                 "rebelHouses": {
                     "House1": "Baratheon",
@@ -72,6 +77,7 @@
             "Events": "When the loyalist army arrived, the bells of the local sept tolled, signaling the townsfolk to take refuge, and giving the battle its name. The loyalists ineffectively searched for Lord Robert from house to house until they were surprised by the combined army of House Stark, House Tully and House Arryn. The rebels defeated the loyalist force, which fled back to King's Landing."
         },
         "battleOfTheTrident": {
+            "battleOrder": "f",
             "Parties": {
                 "rebelHouses": {
                     "House1": "Baratheon",
@@ -97,6 +103,7 @@
 
         },
         "wildfirePlot": {
+            "battleOrder": "g",
             "Parties": {
                 "rebelHouses": {
                     "House1": "Kingsguard"
@@ -110,6 +117,7 @@
             "Events": "Jaime once again urged Aerys to surrender, but the Mad King told him to bring him Tywin's head. He then ordered Rossart to burn the city to the ground. He believed that once the city was destroyed, he would rise from the ashes as a dragon. Before they could go through with this, Jaime killed Rossart and when Aerys tried to flee, Jaime stabbed him in the back and slit his throat to make sure he was dead. At this point, Lord Eddard Stark entered the throne room and discovered Jaime standing over the king he had just killed."
         },
         "sackOfKingsLanding": {
+            "battleOrder": "h",
             "Parties": {
                 "rebelHouses": {
                     "House1": "Lannister",
@@ -126,6 +134,7 @@
             }
         },
         "seigeOfStormsEnd": {
+            "battleOrder": "i",
             "Parties": {
                 "rebelHouses": {
                     "House1": "Baratheon",
@@ -140,6 +149,7 @@
             "Events": "Stannis and the garrison would have starved if not for the intervention of a smuggler named Davos, who managed to slip through the loyalist navy blockading Storm's End and delivered a cargo of onions and salted fish. Thanks to Davos's intervention the garrison survived until Ned Stark later arrived to lift the siege."
         },
         "showdownAtTheTowerOfJoy": {
+            "battleOrder": "j",
             "Parties": {
                 "rebelHouses": {
                     "House1": "Stark",
@@ -155,6 +165,7 @@
 
         },
         "assultOnDragonstone": {
+            "battleOrder": "k",
             "Parties": {
                 "rebelHouses": {
                     "House1": "Baratheon"

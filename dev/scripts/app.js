@@ -24,7 +24,8 @@ class App extends React.Component {
     //set initial states here
     this.state ={
       activeIndex:0,
-      battles: []
+      battles: [],
+      battleName: []
     }
     //Here we bind our methods so that the `this` keyword is in proper context inside of our custom methods
     this.goToNextBattle = this.goToNextBattle.bind(this);
@@ -40,6 +41,7 @@ class App extends React.Component {
       const state = [];
       for(let key in data){
         data[key].key = key;
+        console.log(key);
         state.push(data[key])
         // console.log(key);
         // console.log(data[key]);
@@ -49,56 +51,61 @@ class App extends React.Component {
         //   console.log(subData[subKey])
         // }
       }
+      function compare (a,b) {
+        if (a.battleOrder < b.battleOrder)
+          return -1;
+        if (a.battleOrder > b.battleOrder)
+          return 1;
+        return 0;
+      }
+
+      state.sort(compare);
       console.log(state);
       this.setState({
         battles: state
       })
 
     });
+
+    // let battleNameHolder = Object.assign({}, this.state.battle);
+    // battleNameHolder.items = stateCopy.items.slice();
+
+    // var stateCopy = Object.assign({}, this.state);
+    // stateCopy.items = stateCopy.items.slice();
+    // stateCopy.items[key] = Object.assign({}, stateCopy.items[key]);
+    // stateCopy.items[key].upVotes += 1;
+    // this.setState(stateCopy);
   }
+
+
 
   //After this for components
   goToPrevBattle(e){
     e.preventDefault();
-
     let index = this.state.activeIndex;
-    // let { battles } = this.props;
-    // let battlesLength = battles.length;
-
-    // if (index < 1) {
-    //   index = battlesLength;
-    // }
-
+    let battles = this.state.battles;
+    let battlesLength = battles.length;
+    if (index < 1) {
+      index = battlesLength;
+    }
     --index;
-
     this.setState({
       activeIndex: index
     });
-
-    console.log('prev button clicked');
   }
 
   goToNextBattle(e){
     e.preventDefault();
     let index = this.state.activeIndex;
-    //propety that is passed to child that will switch the battle 
-
-
-    // let {battles} = this.props;
-
-    // let battlesLength = battles.length - 1;
-    // if (index === slidesLength){
-    //   index = -1;
-    // }
-
+    let battles = this.state.battles;
+    let battlesLength = battles.length - 1;
+    if (index === battlesLength){
+      index = -1;
+    }
     ++index;
-
     this.setState({
       activeIndex: index
     });
-
-    console.log('next button clicked'); 
- 
   }
 
   render() {
