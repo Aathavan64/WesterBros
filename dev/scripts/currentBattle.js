@@ -4,7 +4,7 @@ class Currentbattle extends React.Component {
     render () {
         console.log(this.props)
         return (
-            <div>
+            <div className={this.props.battle.Title.replace(' ','-').toLowerCase()}>
                 <p>{this.props.battle.Title}</p>
                 <p>{this.props.battle.Prelude}</p>
                 <p>{this.props.battle.Events}</p>
