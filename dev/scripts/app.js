@@ -122,27 +122,24 @@ class App extends React.Component {
 
   render() {
     const currentBattleData = this.state.battles[this.state.activeIndex]
-    console.log(this.state.battles);
+    console.log(currentBattleData);
     return (
-      <div>
-        <div className="initialView">
-          <div className="initalMapView">
-
-          </div>
-          <div className="battleTracker">
-            {this.state.battles.length>0 &&
-              <div>
-                <Currentbattle battle={currentBattleData} />
+      <div className="initialView">        
+          {this.state.battles.length>0 &&
+            <div className="mainContainer">
+              <div className="currentContainer">
                 <Rebelhouses rebelHouses={currentBattleData.rebelHouses} />
+                <Currentbattle battle={currentBattleData} />
                 <Rebelhouses rebelHouses={currentBattleData.crownHouses} />
-                <Currentindicator battle={currentBattleData} />
               </div>
-            }
-            <Previousbattle onClick={e => this.goToPrevBattle(e)}/>
-            <Nextbattle onClick={e => this.goToNextBattle(e)} />
-          </div>
-        </div>
-      </div>
+              <div>
+                <Currentindicator battle={currentBattleData} />
+                <Previousbattle onClick={e => this.goToPrevBattle(e)}/>
+                <Nextbattle onClick={e => this.goToNextBattle(e)} />                  
+              </div>
+            </div>
+          }        
+      </div>      
     )
   }
 
