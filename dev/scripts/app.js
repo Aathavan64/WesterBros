@@ -4,6 +4,7 @@ import Previousbattle from './previousBattle.js'
 import Nextbattle from './nextBattle.js'
 import Currentbattle from './currentBattle.js'
 import Currentindicator from './currentIndicator.js'
+import Rebelhouses from './rebelHouses.js'
 
 // Initialize Firebase
 var config = {
@@ -44,7 +45,24 @@ class App extends React.Component {
         data[key].key = key;
         // console.log(key);
         // battleNameState.push(key)
+        let battleCrown = data[key].crownHouses;
+        let battleRebel = data[key].rebelHouses;
+        let crownHouses = [];
+        let rebelHouses = [];
+        for(let crownHouseKey in battleCrown){
+          // console.log(battleCrown[crownHouseKey])
+          crownHouses.push(battleCrown[crownHouseKey])
+        }
+        for (let rebelHouseKey in battleRebel) {
+          rebelHouses.push(battleRebel[rebelHouseKey])
+        }
+        // console.log(crownHouses)
+        // console.log(battleCrown)
+        // console.log(battleRebel)
+        data[key].crownHouses=crownHouses;
+        data[key].rebelHouses=rebelHouses;
         battlesState.push(data[key])
+        // data[key].crownHouses 
         // console.log(key);
         // console.log(data[key]);
         // let subData = data[key];
@@ -53,6 +71,10 @@ class App extends React.Component {
         //   console.log(subData[subKey])
         // }
       }
+      // for(let key in battlesState){
+      //   console.log(battlesState[key])
+      // }
+
       function compare (a,b) {
         if (a.battleOrder < b.battleOrder)
           return -1;
@@ -66,8 +88,8 @@ class App extends React.Component {
         battles: battlesState
       })
     });
-
   }
+   
 
   //After this for components
   goToPrevBattle(e){
@@ -99,6 +121,7 @@ class App extends React.Component {
   }
 
   render() {
+    const currentBattleData = this.state.battles[this.state.activeIndex]
     console.log(this.state.battles);
     return (
       <div>
@@ -108,13 +131,11 @@ class App extends React.Component {
           </div>
           <div className="battleTracker">
             {this.state.battles.length>0 &&
-              <Currentbattle battle={this.state.battles[this.state.activeIndex]} />
-            }
-            {/* {this.state.battles.map((battle, i) =>{
-              return <Currentbattle key={i} battle={battle} />
-            })} */}
-            {this.state.battles.length>0 &&
-            <Currentindicator battle={this.state.battles[this.state.activeIndex]} />
+              <div>
+                <Currentbattle battle={currentBattleData} />
+                <Rebelhouses rebelHouses={currentBattleData.rebelHouses} />
+                <Currentindicator battle={currentBattleData} />
+              </div>
             }
             <Previousbattle onClick={e => this.goToPrevBattle(e)}/>
             <Nextbattle onClick={e => this.goToNextBattle(e)} />
