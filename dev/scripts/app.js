@@ -134,6 +134,7 @@ class App extends React.Component {
               <div>
                 <Currentbattle battle={currentBattleData} />
                 <Rebelhouses rebelHouses={currentBattleData.rebelHouses} />
+                <Rebelhouses rebelHouses={currentBattleData.crownHouses} />
                 <Currentindicator battle={currentBattleData} />
               </div>
             }
