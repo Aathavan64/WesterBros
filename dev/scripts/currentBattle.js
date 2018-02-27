@@ -9,7 +9,7 @@ class Currentbattle extends React.Component {
                     
                 </div>
                 <div className={"centralViewerInfo"}>
-                    <p>{this.props.battle.Title}</p>
+                    <h1>{this.props.battle.Title}</h1>
                     <p>{this.props.battle.Prelude}</p>
                     <p>{this.props.battle.Events}</p>
                     <p>{this.props.battle.afterMath}</p>

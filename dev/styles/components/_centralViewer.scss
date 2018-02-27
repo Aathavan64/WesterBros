@@ -1,13 +1,85 @@
 .bannerSection {
-    background-image: url('/images/extra_clean_paper.png');
+    background-image: url('/images/ricepaper_v3.png');
     height: 50vh;
 };
 
 .centralViewer {
     width: 80%;
+    background-image: url('/images/ricepaper_v3.png')
 }
 
 .centralViewerInfo {
   background-image: url('/images/ricepaper_v3.png');
   height: 50vh;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+
+
 };
+
+.centralViewerInfo h1 {
+    font-family: 'Lobster Two', cursive;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.centralViewerInfo p {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 20px;
+}
+
+.bannerSection {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.abductionoflyannastarkPic {
+    background-image: url('/images/rhaegarAbduction.jpg');
+}
+
+.executionofrickardandbrandonstarkPic {
+    background-image: url('/images/execution.png');
+}
+
+.battleofsummerhallPic {
+    background-image: url('/images/summerHall.jpg');
+}
+
+.battleofashfordPic {
+    background-image: url('/images/ashford.jpg');
+}
+
+.battleofthebellsPic {
+    background-image: url('/images/bells.jpg');
+}
+
+.battleofthetridentPic {
+    background-image: url('/images/trident.jpg');
+    background-size: contain;
+}
+
+.wildfireplotPic {
+    background-image: url('/images/jamieKillsMadKing.jpg');
+    background-size: contain;
+}
+
+.sackofkingslandingPic {
+    background-image: url('/images/sackOfKingsLanding.jpg');
+}
+
+.seigeofstormsendPic {
+    background-image: url('/images/siegeofStormsEnd.jpg');
+}
+
+.showdownatthetowerofjoyPic {
+    background-image: url('/images/arthur_dayne___sword_of_the_morning_by_awpgoblin389-da7kb6w.png');
+    background-size: contain;
+}
+
+.assultondragonstonePic {
+    background-image: url('/images/FuryDragonstone.jpg');
+    background-size: contain;
+}
+
