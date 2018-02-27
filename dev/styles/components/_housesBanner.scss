@@ -1,7 +1,7 @@
 .housesBanner {
     background-image: url('/images/grey_wash_wall.png');
     width: 10%;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .sigil {
@@ -28,7 +28,7 @@
 }
 
 .sigilCafferen {
-    background-image: url('/images/arrynCafferen.png');
+    background-image: url('/images/cafferenSigil.png');
 }
 
 .sigilClegane {
@@ -98,5 +98,18 @@
 
 .sigilTyrell {
     background-image: url('/images/tyrellSigil.png')
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    .housesBanner{
+        width: 100%;
+        min-height: auto;
+        display: flex;
+        margin-bottom: 20px;
+    }
+    .sigil{
+        width: 50px;
+    }
 }
 

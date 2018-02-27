@@ -133,6 +133,7 @@ class App extends React.Component {
                 <Rebelhouses rebelHouses={currentBattleData.crownHouses} />
               </div>
               <div>
+                {/* This section is meant to be replaced with swipe, didn't style as it isn't supposed to be a visual component of the app, just kept it like this so i could interact with it until I am able to get swipe working :) */}
                 <Currentindicator battle={currentBattleData} />
                 <Previousbattle onClick={e => this.goToPrevBattle(e)}/>
                 <Nextbattle onClick={e => this.goToNextBattle(e)} />                  

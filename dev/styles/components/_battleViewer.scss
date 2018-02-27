@@ -3,3 +3,16 @@
     flex-direction: row;
 }
 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    .currentContainer {
+        flex-direction: column;
+    }
+    .centralViewer{
+        order:-1;
+    }
+    .currentContainer {
+        background-image: url('/images/ricepaper_v3.png')
+    }
+
+}
