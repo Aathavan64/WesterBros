@@ -149,7 +149,7 @@ h1, h2, h3, h4, p {
   .centralViewer {
     order: -1; }
   .currentContainer {
-    background-image: url("/images/ricepaper_v3.png"); } }
+    background-image: url("../../images/ricepaper_v3.png"); } }
 
 .housesBanner {
   background-image: url("/images/grey_wash_wall.png");
@@ -167,68 +167,68 @@ h1, h2, h3, h4, p {
   margin-bottom: 20px; }
 
 .sigilArryn {
-  background-image: url("/images/arrynSigil.png"); }
+  background-image: url("../../images/arrynSigil.png"); }
 
 .sigilBaratheon {
-  background-image: url("/images/baratheonSigil.png"); }
+  background-image: url("../../images/baratheonSigil.png"); }
 
 .sigilBolton {
-  background-image: url("/images/boltonSigil.png"); }
+  background-image: url("../../images/boltonSigil.png"); }
 
 .sigilCafferen {
-  background-image: url("/images/cafferenSigil.png"); }
+  background-image: url("../../images/cafferenSigil.png"); }
 
 .sigilClegane {
-  background-image: url("/images/cleganeSigil.png"); }
+  background-image: url("../../images/cleganeSigil.png"); }
 
 .sigilFell {
-  background-image: url("/images/fellSigil.png"); }
+  background-image: url("../../images/fellSigil.png"); }
 
 .sigilAlchemist {
-  background-image: url("/images/fireSigil.png"); }
+  background-image: url("../../images/fireSigil.png"); }
 
 .sigilForrester {
-  background-image: url("/images/forresterSigil.png"); }
+  background-image: url("../../images/forresterSigil.png"); }
 
 .sigilFrey {
-  background-image: url("/images/freySigil.png"); }
+  background-image: url("../../images/freySigil.png"); }
 
 .sigilGrandison {
-  background-image: url("/images/grandisonSigil.png"); }
+  background-image: url("../../images/grandisonSigil.png"); }
 
 .sigilGreyjoy {
-  background-image: url("/images/greyjoySigil.png"); }
+  background-image: url("../../images/greyjoySigil.png"); }
 
 .sigilKingsguard {
   background-image: url("/images/kingsguardSigil.png"); }
 
 .sigilLannister {
-  background-image: url("/images/lannisterSigil.png"); }
+  background-image: url("../../images/lannisterSigil.png"); }
 
 .sigilMartell {
-  background-image: url("/images/martellSigil.png"); }
+  background-image: url("../../images/martellSigil.png"); }
 
 .sigilredwyne {
-  background-image: url("/images/redwyneSigil.png"); }
+  background-image: url("../../images/redwyneSigil.png"); }
 
 .sigilReed {
-  background-image: url("/images/reedSigil.png"); }
+  background-image: url("../../images/reedSigil.png"); }
 
 .sigilIron,
 .sigilTargaryen {
-  background-image: url("/images/targaryenSigil.png"); }
+  background-image: url("../../images/targaryenSigil.png"); }
 
 .sigilStark {
-  background-image: url("/images/starkSigil.png"); }
+  background-image: url("../../images/starkSigil.png"); }
 
 .sigilTarly {
-  background-image: url("/images/tarlySigil.png"); }
+  background-image: url("../../images/tarlySigil.png"); }
 
 .sigilTully {
-  background-image: url("/images/tullySigil.png"); }
+  background-image: url("../../images/tullySigil.png"); }
 
 .sigilTyrell {
-  background-image: url("/images/tyrellSigil.png"); }
+  background-image: url("../../images/tyrellSigil.png"); }
 
 /* Landscape phones and down */
 @media (max-width: 480px) {
@@ -241,15 +241,15 @@ h1, h2, h3, h4, p {
     width: 50px; } }
 
 .bannerSection {
-  background-image: url("/images/ricepaper_v3.png");
+  background-image: url("../../images/ricepaper_v3.png");
   height: 50vh; }
 
 .centralViewer {
   width: 80%;
-  background-image: url("/images/ricepaper_v3.png"); }
+  background-image: url("../../images/ricepaper_v3.png"); }
 
 .centralViewerInfo {
-  background-image: url("/images/ricepaper_v3.png");
+  background-image: url("../../images/ricepaper_v3.png");
   min-height: 50vh;
   padding-top: 20px;
   padding-right: 20px;
@@ -270,40 +270,40 @@ h1, h2, h3, h4, p {
   background-position: top; }
 
 .abductionoflyannastarkPic {
-  background-image: url("/images/rhaegarAbduction.jpg"); }
+  background-image: url("../../images/rhaegarAbduction.jpg"); }
 
 .executionofrickardandbrandonstarkPic {
-  background-image: url("/images/execution.png"); }
+  background-image: url("../../images/execution.png"); }
 
 .battleofsummerhallPic {
-  background-image: url("/images/summerHall.jpg"); }
+  background-image: url("../../images/summerHall.jpg"); }
 
 .battleofashfordPic {
-  background-image: url("/images/ashford.jpg"); }
+  background-image: url("../../images/ashford.jpg"); }
 
 .battleofthebellsPic {
-  background-image: url("/images/bells.jpg"); }
+  background-image: url("../../images/bells.jpg"); }
 
 .battleofthetridentPic {
-  background-image: url("/images/trident.jpg");
+  background-image: url("../../images/trident.jpg");
   background-size: contain; }
 
 .wildfireplotPic {
-  background-image: url("/images/jamieKillsMadKing.jpg");
+  background-image: url("../../images/jamieKillsMadKing.jpg");
   background-size: contain; }
 
 .sackofkingslandingPic {
-  background-image: url("/images/sackOfKingsLanding.jpg"); }
+  background-image: url("../../images/sackOfKingsLanding.jpg"); }
 
 .seigeofstormsendPic {
-  background-image: url("/images/siegeofStormsEnd.jpg"); }
+  background-image: url("../../images/siegeofStormsEnd.jpg"); }
 
 .showdownatthetowerofjoyPic {
-  background-image: url("/images/arthur_dayne___sword_of_the_morning_by_awpgoblin389-da7kb6w.png");
+  background-image: url("../../images/arthur_dayne___sword_of_the_morning_by_awpgoblin389-da7kb6w.png");
   background-size: contain; }
 
 .assultondragonstonePic {
-  background-image: url("/images/FuryDragonstone.jpg");
+  background-image: url("../../images/FuryDragonstone.jpg");
   background-size: contain; }
 
 /* Landscape phones and down */
