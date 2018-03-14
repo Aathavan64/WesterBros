@@ -152,7 +152,7 @@ h1, h2, h3, h4, p {
     background-image: url("../../images/ricepaper_v3.png"); } }
 
 .housesBanner {
-  background-image: url("/images/grey_wash_wall.png");
+  background-image: url("../../images/grey_wash_wall.png");
   width: 10%;
   min-height: 100vh; }
 
@@ -296,7 +296,7 @@ h1, h2, h3, h4, p {
   background-image: url("../../images/sackOfKingsLanding.jpg"); }
 
 .seigeofstormsendPic {
-  background-image: url("../../images/siegeofStormsEnd.jpg"); }
+  background-image: url("../../images/siegeOfStormsEnd.jpg"); }
 
 .showdownatthetowerofjoyPic {
   background-image: url("../../images/arthur_dayne___sword_of_the_morning_by_awpgoblin389-da7kb6w.png");
